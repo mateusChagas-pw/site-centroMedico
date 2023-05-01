@@ -53,3 +53,60 @@ nav a:hover {
     background-color: #39aae1;
     color: #fff; 
 }
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.banner_titulo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_titulo h1 {
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #5555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    
+}
+.banner_titulo h2 {
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0px 1px 0px #5555;
+    max-width: 350px;
+    margin-top: 20px;   
+    
+}
+.banner_opcoes{
+    height: 210px;
+    display: flex;
+}
+.opcao1,.opcao2,.opcao3 {
+    flex: 1;
+}
+
+.opcao1 {
+    background-color: rgba(95, 160, 235, 0.493);
+} 
+
+.opcao2 {
+    background-color: rgba(95, 207, 235, 0.493);
+} 
+
+.opcao3 {
+    background-color: rgba(16, 180, 172, 0.253);
+} 
