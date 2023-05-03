@@ -4,6 +4,9 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif; 
 }
+body {
+    padding-bottom: 200px;
+}
 
 header {
     display: flex;
@@ -143,4 +146,32 @@ nav a:hover {
     padding-bottom: 8px;
 }
 
+#geral {
+    display: flex;
+    justify-content: center;
+}
 
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex: 1;
+}
+
+.setor-titulo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.setor-titulo-texto {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.setor-barra {
+    width: 50px;
+    height: 2px;
+    background-color: aqua;
+    margin-top: 10px;
+}
