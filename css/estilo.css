@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 header {
@@ -67,14 +68,14 @@ nav a:hover {
     flex-direction: column;
 }
 
-.banner_titulo {
+.banner_topo {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.banner_titulo h1 {
+.banner_topo h1 {
     color: #fff;
     font-size: 70px;
     text-shadow: 0px 1px 0px #5555;
@@ -83,7 +84,7 @@ nav a:hover {
     max-width: 350px;
     
 }
-.banner_titulo h2 {
+.banner_topo h2 {
     color: #fff;
     font-size: 25px;
     text-shadow: 0px 1px 0px #5555;
@@ -97,6 +98,8 @@ nav a:hover {
 }
 .opcao1,.opcao2,.opcao3 {
     flex: 1;
+    color: #fff;
+    padding: 20px;
 }
 
 .opcao1 {
@@ -110,3 +113,34 @@ nav a:hover {
 .opcao3 {
     background-color: rgba(16, 180, 172, 0.253);
 } 
+
+.banner_titulo {
+    font-size: 21px;
+}
+
+.banner_desc {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+.banner_opcoes a {
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: solid 1px darkgreen;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #ccc; 
+}
+
+.banner_horario {
+    font-size: 14px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #717171; 
+    padding-bottom: 8px;
+}
+
+
