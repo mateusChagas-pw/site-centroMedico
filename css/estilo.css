@@ -245,3 +245,19 @@ article .resumo_noticia {
     margin: 5px;
     background-color: rgba(36, 81, 230, 0.836);
 }
+
+
+.marque_consulta {
+    color: #515151;
+    display: flex;
+    flex-direction: column;
+}
+
+.marque_consulta a {
+    text-decoration: none;
+}
+
+.marque_consulta div {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
