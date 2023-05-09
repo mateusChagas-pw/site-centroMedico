@@ -287,7 +287,6 @@ footer {
 
 .fm-1, .fm-2, .fm-3 {
     flex: 1;
-    padding: 20px;
     color: #fff;
 }
 
@@ -303,6 +302,23 @@ footer {
     background-color: rgba(16, 180, 172, 0.253);
 } 
 
+.footer-menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-menu-titulo {
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+.footer-menu-desc {
+    font-size: 14px;
+    padding: 10px;
+}
+
 .footer-area {
     display: flex;
     color: #fff;
@@ -314,4 +330,28 @@ footer {
 
 footer .setor-titulo-texto{
     color: #fff;
+}
+
+footer .setor-body-desc {
+    color: #5c5c5c;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+footer .setor-body-contato {
+    display:inline-block;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-right: 40px;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+footer .footer-copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color:#5c5c5c;
+    font:12px;
+    margin-top: 30px;
 }
