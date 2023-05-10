@@ -346,12 +346,66 @@ footer .setor-body-contato {
     color: #5c5c5c;
     font-size: 14px;
 }
-
-footer .footer-copy {
-    border-top: 1px solid #2c2c2c;
+.menu-mobile{
+    display: none;
+    width: 40px;
     height: 40px;
-    line-height: 40px;
-    color:#5c5c5c;
-    font:12px;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    margin-right: 30px;
+}
+.mm-linha {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+@media (max-width:600px) {
+
+    .banner_topo h1 {
+        font-size: 50px;
+    }
+    .banner_topo h2 {
+        font-size: 19px;
+    }
+
+    .banner_topo {
+        padding: 10px;
+    }
+    .banner_opcoes {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #geral .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    footer .footer-menu,
+    footer .footer-area {
+        flex-direction: column;
+    }
+    footer .footer-area {
+        padding: 10px;
+    }
+    footer .footer-copy {
+        padding: 5px;
+    }
+   
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+    header {
+        height: auto;   
+    }
+    .logo {
+        padding: 10px;
+    }
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
 }
