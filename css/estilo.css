@@ -359,7 +359,7 @@ footer .setor-body-contato {
     background-color: #39aae1;
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
 
     .banner_topo h1 {
         font-size: 50px;
@@ -379,6 +379,9 @@ footer .setor-body-contato {
     #geral .container {
         flex-direction: column;
         padding: 20px;
+    }
+    .setor-body .departamentos {
+        max-width: 500px;
     }
     
     footer .footer-menu,
