@@ -346,6 +346,13 @@ footer .setor-body-contato {
     color: #5c5c5c;
     font-size: 14px;
 }
+footer .footer-copy {
+    color: #5c5c5c;
+    border-top: 2px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
 .menu-mobile{
     display: none;
     width: 40px;
@@ -374,6 +381,7 @@ footer .setor-body-contato {
     .banner_opcoes {
         height: auto;
         flex-direction: column;
+        display: none;
     }
 
     #geral .container {
@@ -398,6 +406,10 @@ footer .setor-body-contato {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
     }
     header {
         height: auto;   
